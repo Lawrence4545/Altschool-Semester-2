@@ -1,0 +1,29 @@
+1. open(): The open() function is used to open a file, specifying the file's name and mode (e.g., read, write, or append). It returns a file object that you can use for further operations.
+
+2. close(): The close() method is used to close the file that was previously opened with open(). This is essential to release system resources and ensure data integrity.
+
+3. read(): The read() method reads the contents of the file and returns them as a string. You can also specify the number of characters to read within the parentheses.
+
+4. readline(): The readline() method reads one line from the file and returns it as a string. You can call this method repeatedly to read the file line by line.
+
+5. readlines(): The readlines() method reads all the lines from the file and returns them as a list of strings, with each line as an element in the list.
+
+6. write(): The write() method is used to write a string to the file. It appends the content to the end of the file if it's opened in write or append mode.
+
+7. writelines(): The writelines() method is used to write a list of strings to the file. It writes each string in the list to a separate line in the file.
+
+8. seek(): The seek() method allows you to change the file's position to a specified byte. It's used to navigate within the file.
+
+9. tell(): The tell() method returns the current file pointer's position (in terms of bytes from the beginning of the file)
+
+10. flush(): The flush() method flushes the internal buffer, ensuring that any data that needs to be written to the file is actually written.
+
+11. truncate(): The truncate() method is used to resize the file to a specified size. If the size is not provided, it truncates the file at the current position.
+
+12. mode: The mode parameter in the open() function specifies how the file should be opened (e.g., 'r' for read, 'w' for write, 'a' for append, 'rb' for binary read, 'wb' for binary write, etc.).
+
+13. with statement: The with statement is used to ensure proper handling of resources by automatically closing the file when you are done with it. It creates a context where the file is automatically closed when the code block is exited.
+
+14. os.path.exists(): This function from the os module checks if a file or directory exists at the given path.
+
+15. os.remove(): This function from the os module is used to delete a file from the filesystem.
