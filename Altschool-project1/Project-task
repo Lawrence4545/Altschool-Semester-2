@@ -1,0 +1,13 @@
+#create a bash script that accepts directory paths as arguments.
+#For each arguments, list the contents of each
+#directory with the name of each listed at the top.
+
+#If you want to give yourself an added challenge,
+#have your script accept an additional argument, "a" or "d" 
+#that sorts the contents of each directory
+#in either ascending or descending order.
+#For even more of a challenge,
+#create bash script that sorts the contents of the directories based on an "a" or "d"
+#argument that directly precedes it.
+#In other words, you should be able to sort one directory in ascending order,
+#a second directory in descending order and so on.
